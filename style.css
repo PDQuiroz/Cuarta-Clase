@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700|Roboto');
+
+
+.bg-lalala{
+background: hsl(16,70%,50%);
+}
+
+.bg-lalala:hover{
+background: hsl(16,70%,60%);
+transition: all ease .5s;
+}
+
+
+
+h1
+{font-family: 'Montserrat', sans-serif;
+font-weight:700;
+color:red;
+}
+
+h2,h3,h4,h5,h6
+{font-family: 'Montserrat', sans-serif;
+font-weight:400;
+color:red;
+}
+
+body
+{background:AliceBlue;
+font-family: 'Roboto', sans-serif;
+  padding-top: 3.5rem;
+}
+
+
+img{
+	border: 5px solid white;
+	box-shadow: 0 0 5px rgba (0,0,0,.5);
+	border-radius: 10px;
+
+}
+
+nav div[class^="col"]{
+	padding-top: 0;
+}
+
+div[class^="col"]{
+	padding-top: 3rem;
+}
+
+
+
+
+
+
+
